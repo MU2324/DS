@@ -111,6 +111,7 @@ print(binalizerdf)
 #print(binalizerdf)
 
 #OR
+!pip install category_encoders
 from category_encoders import BinaryEncoder
 # Create a sample dataframe
 data = {'color': ['red', 'green', 'blue', 'red', 'green', 'blue']}
@@ -135,7 +136,7 @@ final_df = pd.concat([gt, gt1, gt2, gt3])
 print(final_df)
 
 #3R Dummification
-
+!pip install category_encoders
 import pandas as pd
 from category_encoders import BinaryEncoder
 # Create a sample dataframe
